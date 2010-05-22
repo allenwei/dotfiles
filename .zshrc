@@ -16,6 +16,10 @@ export ZSH_THEME="macovsky"
 # export DISABLE_LS_COLORS="true"
 
 source $ZSH/oh-my-zsh.sh
+if [ -f $HOME/.zshrc.local ]
+then
+  source $HOME/.zshrc.local
+fi
 
 # Customize to your needs...
 

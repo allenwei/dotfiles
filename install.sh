@@ -26,7 +26,7 @@ echo "$ZSH_FOLDER" > $HOME/.zshrc.loc
 # }}}
 
 # {{{ install other config
-FILES=( ".vimrc" ".vim" ".tmux" ".tmux.conf" ".vimperator" ".vimperatorrc" )
+FILES=(".vimrc" ".vim" ".tmux" ".tmux.conf" ".vimperator" ".vimperatorrc")
 for FILE_NAME in ${FILES[@]}
 do
   dist_file_path="$HOME/$FILE_NAME"
