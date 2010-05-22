@@ -46,6 +46,10 @@ done
 echo "***** All Done ******"
 
 
-#chsh -s `which zsh`
+echo ""
+echo ""
+echo "**** Notice *****"
+echo "if you haven't set defult shell to zsh, run this command"
+echo "chsh -s `which zsh`"
 
 # vim:fdm=marker:ts=2
