@@ -1,5 +1,6 @@
 Quick Install
-run @./install@
+=========================
+run @./install.sh@
 
 Thanks "Linsong's":http://github.com/linsong vim configuration
 Thanks "robbyrussell's":http://github.com/robbyrussell zsh configuration
