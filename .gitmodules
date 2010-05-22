@@ -1,0 +1,6 @@
+[submodule "other"]
+	path = other
+	url = git@github.com:allenwei/rails_vim_conf.git
+[submodule "my_zsh"]
+	path = my_zsh
+	url = git@github.com:allenwei/my_zsh.git
