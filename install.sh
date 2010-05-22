@@ -1,6 +1,7 @@
 #ln -s linsong/.vim ~/.vim
 #ln -s linsong/.vimrc ~/.vimrc
-
+git submodule init
+git submodule update
 DOTFILES=$(pwd)
 ZSH_FOLDER="$DOTFILES/my_zsh"
 echo "zsh folder $ZSH_FOLDER"
@@ -45,5 +46,6 @@ done
 echo "***** All Done ******"
 
 
+#chsh -s `which zsh`
 
 # vim:fdm=marker:ts=2
